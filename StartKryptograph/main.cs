@@ -1,12 +1,12 @@
 ﻿using System;
-
+using KryptographBibliothek;
 namespace StartKryptograph
 {
     class main
     {
         static void Main(string[] args)
         {
-            KryptographBibliothek.ZeichenAusgabe.ausgabe();
+            Menue.HauptMenue();
         }
     }
 }
